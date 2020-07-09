@@ -1,1 +1,122 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*My code starts here*/
+*{
+    border: 1px solid black;
+    font-family: 'Asap', sans-serif;
+    font-size: 69.5%;
+    color:#FFFFFF;
+    letter-spacing: 1.5;
+    line-height: 2;
+}
+body{
+    background-color: #001f3f;
+}
+.wrapper{
+    width:95%;
+    margin: 2%;
+}
+h1{
+    font-size: xxx-large;
+    font-family: 'Grenze Gotisch', cursive;
+    color:#FFFFFF;
+}
+header{
+    background-color: black;
+}
+header nav{
+    width:25%;
+    display:flex;
+    justify-content: flex-start;
+    height: 25px;
+    align-items: center;
+    padding:30px;
+    
+    }
+    header  nav a{
+        text-decoration: none;
+        border: 3px solid black;
+        color:#FF851B;
+        padding:10px;
+        margin:0 auto;
+
+    }
+    .top{
+        display: flex;
+        
+    }
+    
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    h2{
+        font-size: xx-large;
+        font-family: 'Grenze Gotisch', cursive;
+        color:#FFFFFF;
+    }
+
+.midTopRowContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.midBottomRowContainer{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: darkolivegreen;
+    font-size: large;
+}
+#blank{
+    color: #001f3f;
+}
