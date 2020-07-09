@@ -60,7 +60,8 @@ body{
 h1{
     font-size: xxx-large;
     font-family: 'Grenze Gotisch', cursive;
-    color:#FFFFFF;
+    color:#ffffff;
+    padding: 2%;
 }
 header{
     background-color: black;
