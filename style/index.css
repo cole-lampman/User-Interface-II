@@ -45,10 +45,11 @@ table {
 *{
     border: 1px solid black;
     font-family: 'Asap', sans-serif;
-    font-size: 69.5%;
+    font-size: 62.5%;
     color:#FFFFFF;
     letter-spacing: 1.5;
     line-height: 2;
+    
 }
 body{
     background-color: #001f3f;
@@ -83,11 +84,18 @@ header nav{
         margin:0 auto;
 
     }
+    .about{
+        padding-left: 5%;
+        align-items: center;
+    }
     .top{
         display: flex;
         
     }
-    
+    .middle{
+        display: flex;
+        flex-direction: column;
+    }
     .about{
         display: flex;
         flex-direction: column;
@@ -120,4 +128,84 @@ button{
 }
 #blank{
     color: #001f3f;
+}
+/* add media queries for different sizes here */
+@media(max-width: 800px){
+    .midTopRowContainer{
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    
+    
+    .top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .top img{
+        width:50%;
+        align-items: center;
+        padding-left: 29%;
+    }
+    .midTopRowContainer{
+        
+        flex-wrap: wrap;
+    }
+     
+     .midTopRowItems{
+         flex-wrap: wrap;
+     }
+    
+    .midBottomRowContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .midTopRowItems img {
+        width: 40%;
+        
+    }
+    .midBottomRowItems img{
+        width: 40%;
+        order: 1;
+    }
+    .middle{
+        flex-direction: row;
+    }
+    .about p{
+        padding: 5% 0;
+    }
+}
+@media(max-width:500px){
+    header h1{
+        padding-left: 25vw;
+    }
+   header nav{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        font-size: .8rem;
+    }
+    header {
+        height: 28vh;
+    }
+    .about p{
+        padding:5% 0;
+    }
+    .midTopRowItems img {
+        width: 40%;
+        
+    }
+    .midBottomRowItems img{
+        width: 40%;
+        order: 1;
+    }
+    .middle{
+        flex-direction: row;
+        align-self:center;
+    }
+    footer{
+        padding:5% 0;
+    }
 }
