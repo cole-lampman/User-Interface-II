@@ -78,7 +78,7 @@ header nav{
     }
     header  nav a{
         text-decoration: none;
-        border: 3px solid black;
+        
         color:#FF851B;
         padding:10px;
         margin:0 auto;
@@ -171,12 +171,14 @@ button{
     }
     .middle{
         flex-direction: row;
+        align-items: flex-start;
     }
     .about p{
         padding: 5% 0;
     }
 }
 @media(max-width:500px){
+    
     header h1{
         padding-left: 25vw;
     }
@@ -188,7 +190,7 @@ button{
         font-size: .8rem;
     }
     header {
-        height: 28vh;
+        height: 15vh;
     }
     .about p{
         padding:5% 0;
@@ -204,6 +206,7 @@ button{
     .middle{
         flex-direction: row;
         align-self:center;
+        
     }
     footer{
         padding:5% 0;
